@@ -1,0 +1,20 @@
+
+/* Simple responsive styling */
+:root{--accent:#2b8aef;--bg:#f5f7fb;--muted:#6b7280}
+body{font-family:Inter,Segoe UI,Roboto,Arial,sans-serif;margin:0;background:var(--bg);color:#111}
+.container{max-width:900px;margin:0 auto;padding:24px}
+.site-header{background:#0b1220;color:#fff;padding:32px 0}
+.header-inner{display:flex;gap:20px;align-items:center}
+.profile-img{width:120px;height:120px;border-radius:12px;object-fit:cover;border:3px solid rgba(255,255,255,0.08)}
+.hero h1{margin:0;font-size:28px}
+.lead{margin:6px 0 12px;color:#cfe6ff}
+.btn{display:inline-block;padding:10px 14px;background:var(--accent);color:#fff;border-radius:8px;text-decoration:none}
+main{padding:28px 0}
+h2{margin-top:0}
+.projects-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin-top:12px}
+.project-card{background:#fff;padding:16px;border-radius:10px;box-shadow:0 6px 18px rgba(12,18,26,0.06)}
+.contact-page{max-width:640px;margin:40px auto;background:#fff;padding:20px;border-radius:10px;box-shadow:0 6px 18px rgba(12,18,26,0.06)}
+.contact-form input,.contact-form textarea{width:100%;padding:10px;border:1px solid #e6e9ef;border-radius:6px;margin-bottom:12px}
+.notice.success{background:#e6ffef;border-left:4px solid #0fbf66;padding:10px;margin-bottom:12px;border-radius:6px}
+footer{padding:18px 0;text-align:center;color:var(--muted)}
+code{background:#111;color:#fff;padding:2px 6px;border-radius:4px;font-size:90%}
